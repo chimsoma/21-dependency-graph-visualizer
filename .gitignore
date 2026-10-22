@@ -2,3 +2,23 @@ node_modules
 .env
 __pycache__
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+
+# Environment variables
+.env
+
+# SQLite database
+instance/*.db
+instance/*.sqlite
+instance/*.sqlite3
